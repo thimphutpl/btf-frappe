@@ -3,6 +3,7 @@
 
 frappe.provide("frappe.customize_form");
 
+
 frappe.ui.form.on("Customize Form", {
 	setup: function (frm) {
 		// save the last setting if refreshing
