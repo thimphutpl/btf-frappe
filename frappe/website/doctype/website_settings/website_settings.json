@@ -483,7 +483,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-01-08 11:50:34.750809",
+ "modified": "2026-05-21 16:21:55.440162",
  "modified_by": "Administrator",
  "module": "Website",
  "name": "Website Settings",
@@ -502,6 +502,11 @@
    "permlevel": 1,
    "read": 1,
    "role": "All"
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "role": "Employee"
   }
  ],
  "sort_field": "modified",
