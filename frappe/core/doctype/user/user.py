@@ -123,6 +123,7 @@ class User(Document):
 		search_bar: DF.Check
 		send_me_a_copy: DF.Check
 		send_welcome_email: DF.Check
+		signature: DF.AttachImage | None
 		simultaneous_sessions: DF.Int
 		social_logins: DF.Table[UserSocialLogin]
 		thread_notify: DF.Check
